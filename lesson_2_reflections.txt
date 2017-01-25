@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A .git file is created to keep track of all the files and data you store.  It's used to ensure you have a backup for the duration of your project.

@@ -1,0 +1,14 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	By identifying the typo introduced.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	The best reason is by having prior versions to recover code segments that I may need again, or to compare older versions with newer code for operational deficiencies.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	The pros are that you can select a logical transition point so that if you have to check for typos or errant code blocks, it will be easier to find them.  The cons are that you (well, I) are more likely to forget to commit at the proper interval.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Because files related to the same project may have to be changed as part of an update to the main body of code.  Saving them together ensures that you will always have all the changes for each file that may have been altered.
+How can you use the commands git log and git diff to view the history of files?
+	git log is a great way to show all the commits and notations about why they were saved.  git diff is helpful in finding the differences between two commit versions, and discovering any potential problems or places that need attention or can be used for future research and using similar code blocks.
+How might using version control make you more confident to make changes that could break something?
+	If I break something, I can not just find where I made an error in prior commits, but can also compare code to identify where errors might have been introduced.  Saves tons of time.
+Now that you have your workspace set up, what do you want to try using Git for?
+	Well, version control of course, sharing code with others, and keeping a running log of the kinds of updates that a team might use.
