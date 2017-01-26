@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  I'd use a remote repository not just for safe keeping (although a daily backup is also taken), but also because having a version history is a whole lot smarter than trying to find errors in new code at a later time.  Talk about your eek factor!
